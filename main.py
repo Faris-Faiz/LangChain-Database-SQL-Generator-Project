@@ -4,6 +4,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
+import streamlit as st
 import os
 import warnings
 from sqlalchemy.exc import SAWarning
@@ -73,6 +74,10 @@ full_chain = (
     | model
 )
 
+st.title('My Streamlit App')
+st.write('This is a basic Streamlit app.')
+
+\
 # Invoke the full chain with the question and print the result
 result = full_chain.invoke({"question": userInput})
 print("\nNatural Language Response:")
