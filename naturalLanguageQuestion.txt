@@ -1,0 +1,17 @@
+What is the number of continents?
+What is the average horsepower for all cars produced before 1980 ?
+How many countries exist?
+What are all the makers and models?
+
+How many countries does each continent have? List the continent id, continent name and the number of countries.
+How many models does each car maker produce? List maker full name, id and the number.
+Which model of the car has the minimum horsepower?
+Find the model of the car whose weight is below the average weight.
+
+Among the cars that do not have the minimum horsepower , what are the make ids and names of all those with less than 4 cylinders ?
+What is the number of cars with a greater accelerate than the one with the most horsepower?
+What is the model for the car with a weight smaller than the average?
+
+What are the name of the countries where there is not a single car maker?
+Which models are lighter than 3500 but not built by the 'Ford Motor Company'?
+Which are the car makers which produce at least 2 models and more than 3 car makers ? List the id and the maker .
